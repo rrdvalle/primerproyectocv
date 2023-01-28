@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Ramon Rodrigo Del Valle">
+    <meta name="description" content="Portafolio de desarrollo web de R. R. Del Valle">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titulo del proyecto -->
+    <title>Del Valle | Desarrollo web Front-End</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes1/icono.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Hoja de estilo CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Roboto+Slab:wght@300&family=Titan+One&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes1/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#perfil-profesional">Perfil profesional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos-importantes">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#referencias">Referencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion principal (Hero), el nombre usado Cristian Peterson es ficticio -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-perfil img-fluid" src="imagenes1/fotoperf1.jpg" alt="Foto de perfil">
+        <h1>Mi nombre es Cristian Peterson</h1>
+        <h2>Desarrollo sitios web y escribo articulos sobre programación y algoritmos.</h2>
+      </div>
+      <div class="hero-secundaria">
+        <img class="hero-secundaria-imagen img-fluid" src="imagenes1/imagen-programa5.png" alt="Monito, laptop y logos de HTML, CSS y JavaScript">
+      </div>
+    </section>
+
+    <!-- Perfil-profesional (los datos aquí escritos son ficticios, 
+      se inventaron para darle un panorama realista al curriculum) -->
+      
+    <section id="perfil-profesional" class="perfil-profesional seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Perfil profesional</h2>
+        <p class="seccion-texto">Desarrollador con amplia experiencia en  
+          diseño web, algoritmos y resolucion de problemas.
+          Adquirí amplio know how en liderazgo de equipos, optimización de procesos de venta
+          y gestión de relaciones positivas con clientes.
+          Mi perfil se caracteriza por la marcada orientación al logro de objetivos, 
+          promover la mejora continua y poseer visión estratégica de negocio.
+          Soy una persona comprometida, dinámica y con gran capacidad analítica. 
+          En la actualidad me encuentro enfocado en impulsar un crecimiento 
+          a nivel profesional, agregar valor diferencial a una organización 
+          y desarrollar mi potencial desarrollador.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia profesional -->
+
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row " >
+          <!-- Desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo web</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Curabitur massa est, consectetur at augue in, 
+              ornare fermentum odio.</p>
+            <div class="badges-contenedor">
+              <span class="badge rounded-pill text-bg-primary">HTML</span>
+              <span class="badge rounded-pill text-bg-primary">CSS</span>
+              <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+            </div>
+          </div >
+          <!-- Articulos escritos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Articulos escritos</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Curabitur massa est, consectetur at augue in, 
+              ornare fermentum odio.</p>
+            <div class="badges-contenedor">
+              <span class="badge rounded-pill text-bg-primary">HTML</span>
+              <span class="badge rounded-pill text-bg-primary">CSS</span>
+              <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+            </div>
+          </div>
+          <!-- Estudios y capacitacion -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudios y capacitación</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Curabitur massa est, consectetur at augue in, 
+              ornare fermentum odio.</p>
+            <div class="badges-contenedor">
+              <span class="badge rounded-pill text-bg-primary">Argentina programa 4.0</span>
+              <span class="badge rounded-pill text-bg-primary">Bootstrap</span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos  -->
+    <section id="proyectos-importantes" class="proyectos-importantes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos importantes</h2>
+      <h3 class="seccion-descripcion">Estos son alguno de los 
+        proyectos que realice en mi carrera</h3><br><br>
+      <!-- Galeria de proyectos  -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto N°1  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto1.png" alt="Proyecto importante 1">
+              <div class="overlay">
+                <p>Proyecto N°1</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto N°2  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto2.png" alt="Proyecto importante 2">
+              <div class="overlay">
+                <p>Proyecto N°2</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto N°3  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto3.png" alt="Proyecto importante 3">
+              <div class="overlay">
+                <p>Proyecto N°3</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto N°4  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto4.png" alt="Proyecto importante 4">
+              <div class="overlay">
+                <p>Proyecto N°4</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto N°5  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto5.png" alt="Proyecto importante 5">
+              <div class="overlay">
+                <p>Proyecto N°5</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto N°6  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto6.png" alt="Proyecto importante 6">
+              <div class="overlay">
+                <p>Proyecto N°6</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto N°7  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto7.png" alt="Proyecto importante 7">
+              <div class="overlay">
+                <p>Proyecto N°7</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto N°8  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto8.png" alt="Proyecto importante 8">
+              <div class="overlay">
+                <p>Proyecto N°8</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto N°9  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes1/proyecto9.png" alt="Proyecto importante 9">
+              <div class="overlay">
+                <p>Proyecto N°9</p>
+                <div class="iconos-contenedores">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://academy.profesional.ticmas.io/academies" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info">Galeria completa de proyectos
+            <i class="bi bi-chevron-double-right"></i>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Articulos  -->
+    <!-- Los enlaces de los articulos mencionados en este bloque son sacados de la web,
+    solo son usados para darle un formato real al curriculum  -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://openwebinars.net/blog/categoria/lenguaje-programacion/ " 
+          target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">El proceso creativo en el desarrollo de software</li>
+          </a>
+
+          <a href="https://blogthinkbig.com/tag/programacion"
+          target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Los lenguajes de programación de los que oirás hablar en 2022</li>
+          </a>
+
+          <a href="https://openwebinars.net/blog/categoria/lenguaje-programacion/ " 
+          target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Que es la programación funcional y sus características</li>
+          </a>
+          
+          <a href="https://blogthinkbig.com/tag/programacion"
+          target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">A third item</li>
+          </a>
+
+          <a href="https://openwebinars.net/blog/categoria/lenguaje-programacion/ " 
+          target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Como aprender programación desde cero y por tu cuenta</li>
+          </a>
+          
+          <a href="https://blogthinkbig.com/tag/programacion"
+          target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Que es una API y como funciona</li>
+          </a>
+          
+        </ul>
+      </div>
+        <a href="https://openwebinars.net/blog/categoria/lenguaje-programacion/" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info ">Ver más artículos
+            <i class="bi bi-chevron-double-right"></i>
+          </button>
+        </a>
+    </section>
+
+    <!-- Referencias  -->
+    <section id="referencias" class="referencias seccion-clara">
+      
+      <h2 class="seccion-titulo">Referencias</h2>
+      <h3 class="seccion-descripcion">Estas son algunas referencias de colegas y clientes</h3>
+      
+      <!-- carrusel -->
+      <div id="referencias-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="referencias-imagen rounded-circle" src="imagenes1/referencia2.png" alt="Foto de Sheldon">
+              <p class="referencias-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin blandit porta ipsum, in ornare ipsum efficitur eget.</p>
+              <div class="referencias-info">
+                <p class="cliente">Sheldon</p>
+                <p class="cargo">Gerente de desarrollo web</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="referencias-imagen rounded-circle" src="imagenes1/referencia5.png" alt="Foto de Penny">
+              <p class="referencias-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin blandit porta ipsum, in ornare ipsum efficitur eget.</p>
+              <div class="referencias-info">
+                <p class="cliente">Penny</p>
+                <p class="cargo">Gerente de Diseño de páginas web</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="referencias-imagen rounded-circle" src="imagenes1/referencia6.png" alt="Foto de Leonard">
+              <p class="referencias-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin blandit porta ipsum, in ornare ipsum efficitur eget.</p>
+              <div class="referencias-info">
+                <p class="cliente">Leonard</p>
+                <p class="cargo">Gerente Páginas Responsive</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="referencias-imagen rounded-circle" src="imagenes1/referencia7.png" alt="Foto de Howard">
+              <p class="referencias-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin blandit porta ipsum, in ornare ipsum efficitur eget.</p>
+              <div class="referencias-info">
+                <p class="cliente">Howard</p>
+                <p class="cargo">Gerente ProgramaciónDesdeCasa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#referencias-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#referencias-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto  -->
+
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              ¡Contactame para trabajar juntos!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:crispeterson@micorreo.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="imagenes1/icono.png" alt="icono de la pagina de Rodrigo">
+      <p class="footer-texto text-center">Aprendo y me perfecciono todos los días</p><br>
+      <p class="footer-texto text-center">Juntos hagamos realidad tu proyecto</p>
+      <div class="iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/linkedin/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/Meta" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="mailto:crispeterson@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">
+        Creado por Rodrigo Del Valle (2023) &#169;
+      </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
